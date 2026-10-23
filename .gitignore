@@ -1,128 +1,41 @@
-# macOS
+# Sistema operacional e editores
 .DS_Store
-
-# Xcode
-*.swp
-*~.nib/
-*.swp
-*~.nib/
-xcuserdata/
-
-# Sublime Text
-*.tmlanguage.cache
-*.tmPreferences.cache
-*.stTheme.cache
-*.sublime-workspace
-*.sublime-project
-*.sublime-package
-*.sublime-build
-*.sublime-settings
-*.sublime-commands
-
-# IntelliJ
-.idea/
-
-# Visual Studio Code
+Thumbs.db
 .vscode/
+.idea/
+*.swp
+*~
 
-# macOS metadata
-.AppleDouble
-.DS_Store
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Compiled Python files
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-
-# Compiled Java files
-*.class
-
-# Compiled Ruby files
-*.rbc
-*.rbo
-*.rbs
-
-# Compiled TypeScript files
-*.js
-*.jsx
-*.ts
-*.tsx
-
-# Compiled Objective-C files
-*.o
-*.lo
-*.la
-*.lai
-*.class
-
-# Compiled Java Bytecode
-*.class
-
-# Node.js
-node_modules/
-npm-debug.log*
-
-# Yarn
-yarn-error.log
-
-# Bower
-bower_components/
-
-# Dependency directories
-jspm_packages/
-typings/
-
-# Gradle
-build/
-.gradle/
-
-# Elastic Beanstalk
-.elasticbeanstalk/
-
-# Django
-*.log
-
-# Jekyll
-_site/
-
-# Sphinx documentation
-docs/_build/
-
-# pyenv
-.python-version
-
-# pipenv
-Pipfile.lock
-Pipfile~*
-
-# virtualenv
+.venv/
 venv/
 ENV/
 
-# Subversion
-.svn/
+# Node.js e artefatos de build
+node_modules/
+npm-debug.log*
+yarn-error.log
+coverage/
+dist/
+build/
 
-# Heroku
-*.heroku/
+# Configuração local e credenciais — não versionar
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
 
-# Docker
-.docker/
+# Estado e variáveis locais de Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
 
-# Composer
-/vendor/
-
-# Vagrant
-.vagrant/
-
-# macOS Finder files
-Icon?
-ehthumbs.db
-Thumbs.db
+# Inventários locais do Ansible (podem conter IPs e caminhos da máquina)
+inventory.ini
+inventory.txt
